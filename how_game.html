@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Як свторити свою гру?</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});  
+ }); 
+</script>
+</head>
+<body>
+<!--==============================
+              header
+=================================-->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="grid_12 rel">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo alt">
+          </a>
+        </h1>
+      </div>
+    </div>
+  </div>
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container">
+      <div class="row">
+       <div class="fromme">
+        <div class="grid_12 ">
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+               <li><a href="index.html">Вступ до програмування</a></li>
+               <li><a href="install.html">Встановлення програми Скретч</a></li>
+               <li><a href="services.html">Можливості Скретч</a></li>
+               <li class="current"><a href="how_game.html">Як створити свою гру?</a></li>
+               <li><a href="avtor.html">Про автора</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>       
+         <div class="clear"></div>  
+        </div>
+     </div> 
+     </div>
+    </div> 
+  </section>
+</header>
+<!--=====================
+          Content
+======================-->
+<section id="content">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">
+        <h3>Як створити гру?</h3>
+        <div class="blog">
+   
+          <img src="images/page4_img1.jpg" alt="" class="img_inner fleft">
+          <div class="extra_wrapper">
+            
+            <p><span class="fwn"><a href="#">Проект “Вказівник”</a></span><em></a></em></p>Спрайт Вказівник рухається по сцені за вказівником миші і, коли доторкається до об'єктів на сцені, говорить їх назву. <br>
+             
+            <br>
+            <a href="#" class="link-1">більше</a>
+          </div>
+        </div>
+        <div class="blog">
+    
+          <img src="images/page4_img2.jpg" alt="" class="img_inner fleft">
+          <div class="extra_wrapper">
+           
+            <p><span class="fwn"><a href="#">Проект “Пішохідний перехід”</a></span><em></em></p>Спрайт Василь рухається вздовж дороги і говорить “Тут дорогу переходити не можна”, але, коли доходить до зебри, говорить “Тут дорогу переходити можна”.<br>
+            
+            <br>
+            <a href="#" class="link-1">більше</a>
+          </div>
+        </div>
+        <div class="blog">
+         
+          <img src="images/page4_img3.jpg" alt="" class="img_inner fleft">
+          <div class="extra_wrapper">
+           
+            <p><span class="fwn"><a href="#">Проект “Пригоди рибки”</a></span><em></em></p>На сцені плаває Рибка. Спрайт Акула рухається по сцені за вказівником миші і, коли доторкається до спрайта Рибка, та зникає зі сцени. <br>
+             
+            <br>
+            <a href="#" class="link-1">більше</a>
+          </div>
+        </div>
+        <div class="blog">
+         
+          <img src="images/page4_img4.jpg" alt="" class="img_inner fleft">
+          <div class="extra_wrapper">
+        
+            <p><span class="fwn"><a href="#">Проект “Світлофор”</a></span><em></a></em></p>На сцені світлофор змінює  свої кольори кожні 2 секунди. Спрайт Василь починає рух після натискання на нього  вказівником миші і переходить вулицю по пішохідному переходу на зелене світло. <br>
+           
+            <br>
+            <a href="#" class="link-1">більше</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12"> 
+        <div class="copyright"><span class="brand">VchumoScratch</span> &copy; <span id="copyright-year"></span> | <a href="#">brovkoyv</a>
+          <div class="sub-copy">Сайт розроблено <a href="https://informblog-33.blogspot.com/" rel="nofollow">Бровко Ю.В.</a></div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</footer>
+<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+</body>
+</html>
